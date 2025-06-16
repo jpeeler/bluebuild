@@ -27,6 +27,7 @@ modules:
         - yalter/niri
       files:
         - https://pkgs.tailscale.com/stable/fedora/tailscale.repo
+      nonfree: negativo17
     install:
       packages:
         - install-weak-deps: false
