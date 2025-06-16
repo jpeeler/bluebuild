@@ -23,6 +23,7 @@ modules:
         - atim/starship
         - che/nerd-fonts
         - errornointernet/packages
+        - errornointernet/quickshell
         - solopasha/hyprland
         - yalter/niri
       files:
