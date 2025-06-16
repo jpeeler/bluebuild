@@ -89,6 +89,19 @@ modules:
         - try
         - walker
         - quickshell
+        # to review (copied from ublue-niri)
+        - dbus-daemon
+        - wireplumber
+        - pipewire
+        - heif-pixbuf-loader
+        - libfdk-aac
+        - gstreamer1-plugins-bad
+        - gstreamer1-plugins-ugly
+        - greetd
+        - greetd-selinux
+        - adw-gtk3-theme
+        - android-tools
+
     remove:
       packages:
         - firefox # default firefox removed in favor of flatpak
