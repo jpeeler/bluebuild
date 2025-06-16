@@ -29,70 +29,70 @@ modules:
         - https://pkgs.tailscale.com/stable/fedora/tailscale.repo
       nonfree: negativo17
     install:
+      install-weak-deps: false
       packages:
-        - install-weak-deps: false
-          packages:
-            - qalculate-gtk
-            - kitty
-            - fira-code-fonts
-            - fontawesome-fonts
-            - fuzzel
-            - gnome-keyring
-            - nautilus
-            - mako
-            - mupdf
-            - mpv
-            - nerd-fonts
-            - pipewire-plugin-libcamera
-            - powerline-fonts
-            - solaar
-            - swappy
-            - wlsunset
-            - wl-clipboard
-            - wl-mirror
-            - wev
-            # (mine) utils:
-            - bat
-            - ddcutil
-            - difftastic
-            - dutree
-            - erofs-utils
-            - eza
-            - fd-find
-            - fish
-            - fzf
-            - gdb
-            - git-delta
-            - gparted
-            - guestfs-tools
-            - perl
-            - playerctl
-            - policycoreutils
-            - ripgrep
-            - qemu-kvm
-            - syncthing
-            - udiskie
-            - valgrind
-            - zenity
-            # (mine) external repos:
-            - tailscale
-            - starship
-            - nwg-clipman
-            - waybar-git
-            - niri
-            - xwayland-satellite
-            - cliphist
-            - ripdrag
-            - satty
-            - scrcpy
-            - swww
-            - try
-            - walker
-            - quickshell
-          remove:
-            - firefox # default firefox removed in favor of flatpak
-            - firefox-langpacks # langpacks needs to also be removed to prevent dependency problems
-            - waybar
+        - qalculate-gtk
+        - kitty
+        - fira-code-fonts
+        - fontawesome-fonts
+        - fuzzel
+        - gnome-keyring
+        - nautilus
+        - mako
+        - mupdf
+        - mpv
+        - nerd-fonts
+        - pipewire-plugin-libcamera
+        - powerline-fonts
+        - solaar
+        - swappy
+        - wlsunset
+        - wl-clipboard
+        - wl-mirror
+        - wev
+        # (mine) utils:
+        - bat
+        - ddcutil
+        - difftastic
+        - dutree
+        - erofs-utils
+        - eza
+        - fd-find
+        - fish
+        - fzf
+        - gdb
+        - git-delta
+        - gparted
+        - guestfs-tools
+        - perl
+        - playerctl
+        - policycoreutils
+        - ripgrep
+        - qemu-kvm
+        - syncthing
+        - udiskie
+        - valgrind
+        - zenity
+        # (mine) external repos:
+        - tailscale
+        - starship
+        - nwg-clipman
+        - waybar-git
+        - niri
+        - xwayland-satellite
+        - cliphist
+        - ripdrag
+        - satty
+        - scrcpy
+        - swww
+        - try
+        - walker
+        - quickshell
+    remove:
+      packages:
+        - firefox # default firefox removed in favor of flatpak
+        - firefox-langpacks # langpacks needs to also be removed to prevent dependency problems
+        - waybar
   
   - type: default-flatpaks
     notify: true # Send notification after install/uninstall is finished (true/false)
