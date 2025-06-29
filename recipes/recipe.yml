@@ -48,6 +48,8 @@ modules:
         - solaar
         - swappy
         - wlsunset
+        - gammastep
+        - gammastep-indicator
         - wl-clipboard
         - wl-mirror
         - wev
