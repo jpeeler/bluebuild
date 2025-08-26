@@ -35,6 +35,7 @@ modules:
         - qalculate-gtk
         - kitty
         - fcitx5-chinese-addons
+        - fcitx5-configtool
         - fira-code-fonts
         - fontawesome-fonts
         - fuzzel
