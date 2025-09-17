@@ -91,6 +91,7 @@ modules:
         - swww
         - try
         - walker
+        - elephant
         - quickshell
         # to review (copied from ublue-niri)
         - dbus-daemon
