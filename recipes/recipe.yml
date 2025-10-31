@@ -30,7 +30,7 @@ modules:
         - https://pkgs.tailscale.com/stable/fedora/tailscale.repo
       nonfree: negativo17
     install:
-      install-weak-deps: false
+      install-weak-deps: true
       packages:
         - qalculate-gtk
         - kitty
