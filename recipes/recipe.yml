@@ -73,6 +73,7 @@ modules:
         - policycoreutils
         - ripgrep
         - qemu-kvm
+        - seahorse
         - swayidle
         - syncthing
         - udiskie
