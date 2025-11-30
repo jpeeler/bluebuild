@@ -26,6 +26,7 @@ modules:
         - errornointernet/quickshell
         - solopasha/hyprland
         - yalter/niri
+        - avengemedia/dms
       files:
         - https://pkgs.tailscale.com/stable/fedora/tailscale.repo
       nonfree: negativo17
@@ -93,6 +94,8 @@ modules:
         - walker
         - elephant
         - quickshell
+        - dms
+        - dms-greeter
         # to review (copied from ublue-niri)
         - dbus-daemon
         - wireplumber
@@ -182,6 +185,13 @@ modules:
           - org.tenacityaudio.Tenacity
           - us.zoom.Zoom
           - xyz.tytanium.DoorKnocker
+
+      - type: systemd
+        user:
+          enabled:
+            - greetd
+          disabled:
+            - gdm sddm lightdm
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
 
