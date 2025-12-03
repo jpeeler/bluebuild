@@ -27,6 +27,7 @@ modules:
         - solopasha/hyprland
         - yalter/niri
         - avengemedia/dms
+        - scottames/vicinae
       files:
         - https://pkgs.tailscale.com/stable/fedora/tailscale.repo
       nonfree: negativo17
@@ -97,6 +98,7 @@ modules:
         - quickshell
         - dms
         - dms-greeter
+        - vicinae
         # to review (copied from ublue-niri)
         - dbus-daemon
         - wireplumber
