@@ -191,7 +191,7 @@ modules:
   #         - xyz.tytanium.DoorKnocker
 
   - type: systemd
-    user:
+    system:
       enabled:
         - greetd
       disabled:
