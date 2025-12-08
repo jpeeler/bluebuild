@@ -118,77 +118,77 @@ modules:
         - firefox-langpacks # langpacks needs to also be removed to prevent dependency problems
         - waybar
 
-  # - type: default-flatpaks
-  #   source: ghcr.io/blue-build/modules:pr-514
-  #   configurations:
-  #     - notify: false
-  #       scope: system
-  #       install:
-  #         - org.mozilla.firefox
-  #         - org.gnome.Loupe
-  #         - xyz.armcord.ArmCord
-  #         - io.github.celluloid_player.Celluloid
-  #         - com.bitwarden.desktop
-  #         - com.slack.Slack
-  #         - com.sublimemerge.App
-  #         - com.visualstudio.code-oss
-  #         - fr.handbrake.ghb
-  #         - md.obsidian.Obsidian
-  #         - com.microsoft.Edge
-  #         - org.telegram.desktop
-  #         - org.videolan.VLC
-  #         - app.drey.Warp
-  #         - app.getclipboard.Clipboard
-  #         - org.pipewire.Helvum
-  #         - com.github.wwmm.easyeffects
-  #         - io.github.nokse22.minitext
-  #         - dev.serebit.Waycheck
-  #         - org.mozilla.Thunderbird
-  #         - org.gnome.Fractal
-  #         - net.sapples.LiveCaptions
-  #         - com.github.tenderowl.frog
-  #         - com.github.jeromerobert.pdfarranger
-  #         - org.gnome.Weather
-  #         - com.github.qarmin.czkawka
-  #         - org.gnome.SimpleScan
-  #         - com.github.tchx84.Flatseal
-  #         - dev.zed.Zed
-  #         - org.signal.Signal
-  #         - io.github.flattool.Warehouse
-  #         - com.github.rafostar.Clapper
-  #         # to review
-  #         - com.belmoussaoui.Decoder
-  #         - com.github.ahrm.sioyek
-  #         - com.github.finefindus.eyedropper
-  #         - com.github.k4zmu2a.spacecadetpinball
-  #         - com.quexten.Goldwarden
-  #         - com.rtosta.zapzap
-  #         - com.transmissionbt.Transmission
-  #         - dev.alextren.Spot
-  #         - dev.lapce.lapce
-  #         - io.github.alainm23.planify
-  #         - io.github.amit9838.mousam
-  #         - io.github.hrkfdn.ncspot
-  #         - io.github.seadve.Kooha
-  #         - io.missioncenter.MissionCenter
-  #         - io.qt.qdbusviewer
-  #         - net.ankiweb.Anki
-  #         - net.mkiol.SpeechNote
-  #         - org.cubocore.CorePDF
-  #         - org.fedoraproject.MediaWriter
-  #         - org.gnome.Calendar
-  #         - org.gnome.Evolution
-  #         - org.gnome.Maps
-  #         - org.gnome.Snapshot
-  #         - org.gnome.clocks
-  #         - org.gnome.gitlab.dqpb.GMetronome
-  #         - org.gnome.meld
-  #         - org.kde.digikam
-  #         - org.kde.skanpage
-  #         - org.libvips.vipsdisp
-  #         - org.tenacityaudio.Tenacity
-  #         - us.zoom.Zoom
-  #         - xyz.tytanium.DoorKnocker
+  - type: default-flatpaks
+    source: ghcr.io/blue-build/modules:pr-514
+    configurations:
+      - notify: false
+        scope: system
+        install:
+          - org.mozilla.firefox
+          - org.gnome.Loupe
+          - xyz.armcord.ArmCord
+          - io.github.celluloid_player.Celluloid
+          - com.bitwarden.desktop
+          - com.slack.Slack
+          - com.sublimemerge.App
+          - com.visualstudio.code-oss
+          - fr.handbrake.ghb
+          - md.obsidian.Obsidian
+          - com.microsoft.Edge
+          - org.telegram.desktop
+          - org.videolan.VLC
+          - app.drey.Warp
+          - app.getclipboard.Clipboard
+          - org.pipewire.Helvum
+          - com.github.wwmm.easyeffects
+          - io.github.nokse22.minitext
+          - dev.serebit.Waycheck
+          - org.mozilla.Thunderbird
+          - org.gnome.Fractal
+          - net.sapples.LiveCaptions
+          - com.github.tenderowl.frog
+          - com.github.jeromerobert.pdfarranger
+          - org.gnome.Weather
+          - com.github.qarmin.czkawka
+          - org.gnome.SimpleScan
+          - com.github.tchx84.Flatseal
+          - dev.zed.Zed
+          - org.signal.Signal
+          - io.github.flattool.Warehouse
+          - com.github.rafostar.Clapper
+          # to review
+          - com.belmoussaoui.Decoder
+          - com.github.ahrm.sioyek
+          - com.github.finefindus.eyedropper
+          - com.github.k4zmu2a.spacecadetpinball
+          - com.quexten.Goldwarden
+          - com.rtosta.zapzap
+          - com.transmissionbt.Transmission
+          - dev.alextren.Spot
+          - dev.lapce.lapce
+          - io.github.alainm23.planify
+          - io.github.amit9838.mousam
+          - io.github.hrkfdn.ncspot
+          - io.github.seadve.Kooha
+          - io.missioncenter.MissionCenter
+          - io.qt.qdbusviewer
+          - net.ankiweb.Anki
+          - net.mkiol.SpeechNote
+          - org.cubocore.CorePDF
+          - org.fedoraproject.MediaWriter
+          - org.gnome.Calendar
+          - org.gnome.Evolution
+          - org.gnome.Maps
+          - org.gnome.Snapshot
+          - org.gnome.clocks
+          - org.gnome.gitlab.dqpb.GMetronome
+          - org.gnome.meld
+          - org.kde.digikam
+          - org.kde.skanpage
+          - org.libvips.vipsdisp
+          - org.tenacityaudio.Tenacity
+          - us.zoom.Zoom
+          - xyz.tytanium.DoorKnocker
 
   - type: systemd
     system:
