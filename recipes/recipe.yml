@@ -119,7 +119,6 @@ modules:
         - waybar
 
   - type: default-flatpaks
-    source: ghcr.io/blue-build/modules:pr-514
     configurations:
       - notify: false
         scope: system
