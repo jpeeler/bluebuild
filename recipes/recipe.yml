@@ -93,8 +93,6 @@ modules:
         - scrcpy
         - swww
         - try
-        - walker
-        - elephant
         - quickshell
         - dms
         - dms-greeter
