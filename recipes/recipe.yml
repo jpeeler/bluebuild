@@ -36,6 +36,7 @@ modules:
       packages:
         - qalculate-gtk
         - kitty
+        - ghostty
         - fcitx5-chinese-addons
         - fcitx5-configtool
         - fira-code-fonts
