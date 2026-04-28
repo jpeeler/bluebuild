@@ -84,7 +84,6 @@ modules:
         - tailscale
         - starship
         - nwg-clipman
-        - waybar-git
         - niri
         - xwayland-satellite
         - cliphist
@@ -114,7 +113,6 @@ modules:
       packages:
         - firefox # default firefox removed in favor of flatpak
         - firefox-langpacks # langpacks needs to also be removed to prevent dependency problems
-        - waybar
 
   - type: default-flatpaks
     configurations:
