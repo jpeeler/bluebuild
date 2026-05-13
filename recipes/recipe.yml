@@ -76,6 +76,7 @@ modules:
         - ripgrep
         - qemu-kvm
         - seahorse
+        - strace
         - swayidle
         - syncthing
         - udiskie
