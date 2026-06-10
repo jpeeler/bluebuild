@@ -70,6 +70,7 @@ modules:
         - git-delta
         - gparted
         - guestfs-tools
+        - nss-tools
         - perl
         - playerctl
         - policycoreutils
