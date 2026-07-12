@@ -28,6 +28,7 @@ modules:
         - yalter/niri
         - avengemedia/dms
         - scottames/vicinae
+        - brycensranch/gpu-screen-recorder-git
       files:
         - https://pkgs.tailscale.com/stable/fedora/tailscale.repo
       nonfree: negativo17
@@ -100,6 +101,8 @@ modules:
         - dms
         - dms-greeter
         - vicinae
+        # brycensranch/gpu-screen-recorder-git
+        - gpu-screen-recorder-ui
         # to review (copied from ublue-niri)
         - dbus-daemon
         - wireplumber
