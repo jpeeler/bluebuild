@@ -24,7 +24,8 @@ modules:
         - che/nerd-fonts
         - errornointernet/packages
         - errornointernet/quickshell
-        - solopasha/hyprland
+        - lionheartp/Hyprland
+        - mineiro/satty
         - yalter/niri
         - avengemedia/dms
         - scottames/vicinae
@@ -87,14 +88,13 @@ modules:
         # (mine) external repos:
         - tailscale
         - starship
-        - nwg-clipman
         - niri
         - xwayland-satellite
         - cliphist
         - ripdrag
         - satty
         - scrcpy
-        - swww
+        - awww
         - try
         - quickshell
         - dankcalendar-git
