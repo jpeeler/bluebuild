@@ -97,7 +97,6 @@ modules:
         - awww
         - try
         - quickshell
-        - dankcalendar-git
         - dms
         - dms-greeter
         - vicinae
